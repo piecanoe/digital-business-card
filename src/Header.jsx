@@ -1,6 +1,5 @@
 import React from "react"
 import avatar from '/src/dufus_color3_lowres.jpg'
-import './Header.css'
 
 export default function Header() {
     return (
