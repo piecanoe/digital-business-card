@@ -73,17 +73,11 @@ p {
 .socials {
   display: flex;
   justify-content: center;
-  align-items: ;
+  align-items: center;
   background: rgb(18, 18, 24);
   height: 60px;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
-}
-
-.socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 20px;
 }
 
