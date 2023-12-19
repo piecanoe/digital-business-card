@@ -1,5 +1,8 @@
 import React from "react"
 import avatar from '/src/dufus_color3_lowres.jpg'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 export default function Header() {
     return (
@@ -12,10 +15,10 @@ export default function Header() {
             <h3 className="website"><a href="https://karendu.netlify.com">karendu.nelify.app</a></h3>
             <div className="buttons">
                 <button>
-                    <a className="email" href="mailto:karenkaydu@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+                    <a className="email" href="mailto:karenkaydu@gmail.com"><FontAwesomeIcon icon={faEnvelope} /> Email</a>
                 </button>
                 <button>
-                    <a className="github" href="https://github.com/piecanoe"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+                    <a className="github" href="https://github.com/piecanoe"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
                 </button>
             </div>
         </div>
