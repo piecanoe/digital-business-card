@@ -80,9 +80,11 @@ p {
   border-bottom-right-radius: 1.5rem;
 }
 
-.socials  i {
-  padding: 10px;
-  color: rgb(87, 86, 92);
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 @keyframes logo-spin {
